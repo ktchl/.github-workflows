@@ -165,7 +165,7 @@ for mail_id in messages:
                                     print(f"Pièce jointe ignorée (non CSV) : {filename}")
                 else:
                     print(f"Email daté de {email_date_str} mais pas aujourd'hui.")
-
+#dddd
 # Déconnexion
 print("Déconnexion...")
 mail.logout()
