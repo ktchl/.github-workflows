@@ -3,6 +3,7 @@ name: Run Email Script
 on:
   schedule:
     - cron: '* * * * *'  # Exécuter toutes les minutes
+  workflow_dispatch:
 
 jobs:
   run-script:
