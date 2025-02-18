@@ -2,7 +2,7 @@ name: Run Email Script
 
 on:
   schedule:
-    - cron: '* * * * *'  # Exécuter toutes les minutes
+    - cron: '*/5 * * * *'  # Exécuter toutes les minutes
   workflow_dispatch:
 
 jobs:
